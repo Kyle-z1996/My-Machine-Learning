@@ -14,13 +14,13 @@ class LinearModel(object):
 
     def fit(self):
         epoch = 300
-        weights = torch.rand(1, 2)  # 一次项参数初始化
+        weights = torch.rand(1, X.shape[1])  # 一次项参数初始化
         One = torch.ones(n, 1)  # 常数项初始化
         bias = 0
         loss = []
 
         for i in range(epoch):
-            y_predict = X.mm(weights.reshape(2, 1)) + bias*One
+            y_predict = X.mm(weights.t()) + bias*One
             weights -= self.grad_w(y_predict, Y)*self.lr
             bias -= self.grad_b(y_predict, Y)*self.lr
 
