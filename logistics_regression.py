@@ -22,7 +22,7 @@ class LogisticModel(object):
         for i in range(epoch):
             Z = X.mm(weights.t()) + bias*One
             y_predict = torch.sigmoid(Z)
-            weights -= self.grad_w(y_predict, Y, Z)*self.lr
+            weights -= self.grad_w(y_predict, Y, X)*self.lr
             bias -= self.grad_b(y_predict, Y)*self.lr
 
             if(i % 100 == 0):
@@ -34,8 +34,8 @@ class LogisticModel(object):
     def loss_func(self, y_pred, y):
         return -(y*torch.log(y_pred) + (1-y)*torch.log(1-y_pred)).mean()
 
-    def grad_w(self, y_pred, y, Z):
-        return (y_pred - y).t().mm(Z) / y.size(0)  # y:n x 1  w:1 x 2
+    def grad_w(self, y_pred, y, X):
+        return (y_pred - y).t().mm(X) / y.size(0)  # y:n x 1  w:1 x 2
 
     def grad_b(self, y_pred, y):
         return (y_pred - y).mean()
