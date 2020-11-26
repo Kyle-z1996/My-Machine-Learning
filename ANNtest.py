@@ -1,6 +1,7 @@
 import numpy as np
 import sklearn.datasets
 import matplotlib.pyplot as plt
+import torch
 
 
 np.random.seed(0)
@@ -61,6 +62,8 @@ def predict(model, x):
     probs = exp_scores / np.sum(exp_scores, axis=1, keepdims=True)
     return np.argmax(probs, axis=1)
 
+def accuracy(y_pred, y):
+    return (torch.from_numpy(y_pred) - torch.from_numpy(y)).eq(0).float().mean()
 
 # 这个函数为神经网络学习参数并且返回模型
 # - nn_hdim: 隐藏层的节点数
@@ -112,7 +115,7 @@ def build_model(nn_hdim, num_passes=20000, print_loss=False):
         # 选择性地打印损失
         # 这种做法很奢侈，因为我们用的是整个数据集，所以我们不想太频繁地这样做
         if print_loss and i % 1000 == 0:
-            print
+            print(F"Loss after iteration {i}: {calculate_loss(model)} | accurary: {accuracy(predict(model, X), y)}")
             "Loss after iteration %i: %f" % (i, calculate_loss(model))
 
     return model

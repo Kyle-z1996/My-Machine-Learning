@@ -50,8 +50,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.torchANN">
+    <configuration name="ANNtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My Machine Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANNtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="logistics_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,6 +119,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.torchANN" />
+        <item itemvalue="Python.ANNtest" />
         <item itemvalue="Python.logistics_regression" />
       </list>
     </recent_temporary>
@@ -129,21 +152,29 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606308151203" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1606323151198">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1344" height="187" key="GridCell.Tab.0.bottom" timestamp="1606367768409">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1344" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606367768409" />
     <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606323151198" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1606323151198">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1344" height="187" key="GridCell.Tab.0.center" timestamp="1606367768409">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1344" height="187" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606367768409" />
     <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606323151198" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1606323151198">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1344" height="187" key="GridCell.Tab.0.left" timestamp="1606367768409">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1344" height="187" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606367768409" />
     <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606323151198" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1606323151198">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1344" height="187" key="GridCell.Tab.0.right" timestamp="1606367768409">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1344" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606367768409" />
     <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606323151198" />
+    <state x="184" y="15" key="SettingsEditor" timestamp="1606354963494">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="15" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606354963494" />
   </component>
 </project>
