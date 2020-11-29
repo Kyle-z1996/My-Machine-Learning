@@ -46,7 +46,7 @@ def accuracy(y_pred, y):
 
 n = 100
 
-X = torch.randn(n, 2)  # 生成n个样本 (高斯分布)
+X = 2*torch.randn(n, 2)  # 生成n个样本 (高斯分布)
 W = torch.tensor([[0.4, 0.6]], dtype=torch.float32)  # 二元线性
 b = 0.4
 Y = torch.sigmoid(X.mm(W.t()) + b * torch.ones(n, 1) + 0.1*torch.randn(n, 1))  # 生成带噪声样本 Y = XW + b + noise(高斯噪声)
