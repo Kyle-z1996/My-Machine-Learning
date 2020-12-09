@@ -44,10 +44,12 @@ class LogisticModel(object):
 def accuracy(y_pred, y):
     return y_pred.bool().eq(y.bool()).float().mean()
 
+torch.set_default_dtype(torch.float64)
+
 n = 100
 
 X = 2*torch.randn(n, 2)  # 生成n个样本 (高斯分布)
-W = torch.tensor([[0.4, 0.6]], dtype=torch.float32)  # 二元线性
+W = torch.tensor([[0.4, 0.6]], dtype=torch.float64)  # 二元线性
 b = 0.4
 Y = torch.sigmoid(X.mm(W.t()) + b * torch.ones(n, 1) + 0.1*torch.randn(n, 1))  # 生成带噪声样本 Y = XW + b + noise(高斯噪声)
 Y = Y.gt(Y.mean()).float()  # 结果为0/1
