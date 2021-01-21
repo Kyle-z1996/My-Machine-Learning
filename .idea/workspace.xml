@@ -51,8 +51,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Python.SleepStateClassify">
     <configuration name="BN_debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.linear_regression">
+    <configuration name="ANNtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> Stashed changes
       <module name="My Machine Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,6 +120,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My Machine Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="logistics_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,9 +169,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\Anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/torchANN.py" />
@@ -159,8 +185,13 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Updated upstream
         <item itemvalue="Python.SleepStateClassify" />
         <item itemvalue="Python.SleepStateClassify (1)" />
+=======
+        <item itemvalue="Python.linear_regression" />
+        <item itemvalue="Python.torchANN" />
+>>>>>>> Stashed changes
         <item itemvalue="Python.logistics_regression" />
         <item itemvalue="Python.BN_debug" />
         <item itemvalue="Python.torchANN" />
@@ -202,6 +233,7 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606308151203" />
+<<<<<<< Updated upstream
     <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1607169636048">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -222,6 +254,28 @@
     </state>
     <state width="1344" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606367768409" />
     <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607169636048" />
+=======
+    <state width="852" height="134" key="GridCell.Tab.0.bottom" timestamp="1606904536728">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="852" height="134" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606904536728" />
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606638624411" />
+    <state width="852" height="134" key="GridCell.Tab.0.center" timestamp="1606904536727">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="852" height="134" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606904536727" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606638624411" />
+    <state width="852" height="134" key="GridCell.Tab.0.left" timestamp="1606904536727">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="852" height="134" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606904536727" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606638624411" />
+    <state width="852" height="134" key="GridCell.Tab.0.right" timestamp="1606904536727">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="852" height="134" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606904536727" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606638624411" />
+>>>>>>> Stashed changes
     <state x="184" y="15" key="SettingsEditor" timestamp="1606354963494">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
